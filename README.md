@@ -23,7 +23,7 @@ EXPOSE 8080
 
 # Inicia ZAP en modo demonio
 CMD ["/opt/ZAP_2.11.0/zap.sh", "-daemon", "-host", "0.0.0.0", "-port", "8080"]
-
+```
 ## 2. Construir la imagen Docker
 
 Una vez que tengas un Dockerfile personalizado, puedes construir la imagen Docker utilizando el siguiente comando:
